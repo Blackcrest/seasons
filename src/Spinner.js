@@ -3,7 +3,7 @@ import React from 'react';
 const Spinner = (props) => {
     return(
         <div className="ui active dimmer">
-            <div class="ui big text loader">
+            <div className="ui big text loader">
                 {props.message}
             </div>
         </div>
